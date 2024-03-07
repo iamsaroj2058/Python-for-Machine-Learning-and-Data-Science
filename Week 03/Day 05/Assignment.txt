@@ -1,0 +1,3 @@
+sync async parallel procesing and multi threading 
+which one is faster and why it is faster  ?
+point out  the reason.

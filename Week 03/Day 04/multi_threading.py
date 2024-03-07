@@ -14,3 +14,7 @@ def main():
     with requests.Session() as session:
       executor.map(fetch_uuid, [session] * 100, [URL] * 100)
       executor.shutdown(wait=True)
+
+
+
+# Refrence from https://docs.python.org/3/library/multiprocessing.html
